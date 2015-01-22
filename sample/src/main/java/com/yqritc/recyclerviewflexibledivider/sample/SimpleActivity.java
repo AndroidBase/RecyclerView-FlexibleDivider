@@ -1,7 +1,5 @@
 package com.yqritc.recyclerviewflexibledivider.sample;
 
-import com.yqritc.recyclerviewflexibledivider.HorizontalDividerItemDecoration;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,7 +10,12 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.yqritc.recyclerviewflexibledivider.HorizontalDividerItemDecoration;
 
+
+/**
+ *主程序
+ */
 public class SimpleActivity extends ActionBarActivity {
 
     public static void startActivity(Activity activity) {
